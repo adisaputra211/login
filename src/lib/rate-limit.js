@@ -1,3 +1,4 @@
+const rateLimitMap = new Map();
 export function checkRateLimit(ip, limit = 5, windowMs = 60000) {
   const now = Date.now();
   const windowStart = now - windowMs;
