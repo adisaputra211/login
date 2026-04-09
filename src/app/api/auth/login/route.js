@@ -10,7 +10,7 @@ export async function POST(request) {
     const rateLimit = checkRateLimit(ip);
     if (!rateLimit.success) {
       return NextResponse.json(
-        { error: 'Talu banyak percobaan login. Silakan tunggu beberapa saat.' },
+        { error: 'Terlalu banyak percobaan login. Silakan tunggu beberapa saat.' },
         { status: 429 }
       );
     }
@@ -51,10 +51,10 @@ export async function POST(request) {
       );
     }
 
-    const token = await createToken({ 
-      id: user.id, 
-      email: user.email, 
-      username: user.username 
+    const token = await createToken({
+      id: user.id,
+      email: user.email,
+      username: user.username
     });
 
     const cookieStore = await cookies();
@@ -69,7 +69,7 @@ export async function POST(request) {
     });
 
     return NextResponse.json(
-      { 
+      {
         message: 'Login berhasil!',
         user: { id: user.id, email: user.email, username: user.username }
       },
