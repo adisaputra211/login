@@ -65,4 +65,19 @@ Setelah langkah nomor 3 (Inisialisasi Database) telah ter-eksekusi, sistem secar
 - **Email/Username**: `admin@example.com` atau `admin`
 - **Password**: `password123`
 
+---
+
+## 🧪 Unit Testing
+Project ini dilengkapi dengan unit test menggunakan **Jest** dan **React Testing Library** untuk memastikan logika validasi dan autentikasi berjalan dengan benar.
+
+Menjalankan seluruh test:
+```bash
+npm test
+```
+
+Menjalankan test dalam mode watch:
+```bash
+npm run test:watch
+```
+
 
