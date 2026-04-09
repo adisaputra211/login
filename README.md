@@ -72,4 +72,26 @@ Setelah langkah nomor 3 (Inisialisasi Database) telah ter-eksekusi, sistem secar
 - **Email/Username**: `admin@example.com` atau `admin`
 - **Password**: `password123`
 
+---
+
+## 📸 Screenshot Aplikasi
+### 1. Tampilan Mobile
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/9bb7bb7c-0539-436b-93d4-13e0094675b5" />
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/39134a1a-9947-4054-a9d8-c123be82cfb7" />
+
+### 2. Tampilan Laptop/Desktop
+<img width="1907" height="966" alt="pc1" src="https://github.com/user-attachments/assets/f23afa72-10d5-4da0-9624-c0805993fa40" />
+
+### 3. Validasi Password Salah
+<img width="985" height="531" alt="image" src="https://github.com/user-attachments/assets/c7f0d78a-223a-43a9-9398-88bdb10391ae" />
+
+### 4. Halaman Dashboard
+<img width="1024" height="476" alt="image" src="https://github.com/user-attachments/assets/b03d8ddd-c1f9-4c17-abb5-26f887202595" />
+
+### 5. Rate Limit
+<img width="1913" height="984" alt="image" src="https://github.com/user-attachments/assets/ad08e2a4-bb97-418a-86d4-84317ac4e525" />
+
+---
+
+
 
