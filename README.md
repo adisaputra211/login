@@ -60,24 +60,16 @@ Akses hasil run pada browser menuju alamat **[http://localhost:3000](http://loca
 
 ---
 
+## 🧪 Unit Testing (Bonus)
+Aplikasi ini sudah dilengkapi dengan unit test untuk memvalidasi fungsi *auth* dan *form validation*. Gunakan perintah berikut:
+```bash
+npm test
+```
+Fitur testing menggunakan **Jest** dan **React Testing Library**.
+
 ## 🔑 Akun Demo (Default Seed)
 Setelah langkah nomor 3 (Inisialisasi Database) telah ter-eksekusi, sistem secara otomatis mendaftarkan akun ini:
 - **Email/Username**: `admin@example.com` atau `admin`
 - **Password**: `password123`
-
----
-
-## 🧪 Unit Testing
-Project ini dilengkapi dengan unit test menggunakan **Jest** dan **React Testing Library** untuk memastikan logika validasi dan autentikasi berjalan dengan benar.
-
-Menjalankan seluruh test:
-```bash
-npm test
-```
-
-Menjalankan test dalam mode watch:
-```bash
-npm run test:watch
-```
 
 

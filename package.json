@@ -6,9 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "test": "jest",
-    "test:watch": "jest --watch"
+    "lint": "eslint",
+    "test": "jest"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",

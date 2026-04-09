@@ -15,12 +15,12 @@ jest.mock('jose', () => ({
 
 describe('Auth Library', () => {
   const password = 'mySecretPassword123';
-  
+
   test('should hash password and verify successfully', async () => {
     const hash = await hashPassword(password);
     expect(hash).toBeDefined();
     expect(hash).not.toBe(password);
-    
+
     const isValid = await verifyPassword(password, hash);
     expect(isValid).toBe(true);
   });
