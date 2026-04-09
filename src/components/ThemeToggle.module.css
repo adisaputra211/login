@@ -1,0 +1,48 @@
+.toggleBtn {
+  position: fixed;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--foreground);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s ease;
+  z-index: 100;
+  backdrop-filter: blur(8px);
+}
+
+.toggleBtn:hover {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: var(--shadow-md);
+  border-color: var(--primary);
+}
+
+.iconContainer {
+  display: flex;
+  transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.iconContainer.dark {
+  transform: rotate(-180deg);
+  color: var(--secondary);
+}
+
+.iconContainer.light {
+  transform: rotate(0deg);
+  color: #f59e0b; /* Amber/Yellow for sun */
+}
+
+.placeholder {
+  width: 44px;
+  height: 44px;
+  position: fixed;
+  top: 1.5rem;
+  right: 1.5rem;
+}
