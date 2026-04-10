@@ -45,11 +45,11 @@ cp .env.example .env.local
 > **Penting:** Buka file `.env.local` lalu pastikan variabel kredensial (seperti `DB_USER`, `DB_PASSWORD`, dan `DB_NAME`) sudah disesuaikan dengan MySQL lokal Anda.
 
 ### 3. Inisialisasi Database
-Pastikan bahwa service MySQL sudah berjalan di belakang layar. Anda dapat mengeksekusi script helper ini yang secara otomatis membuat *database*, *table*, hingga akun sampel:
+Pastikan service MySQL Anda sudah berjalan. Jalankan skrip berikut untuk membuat database, tabel, dan data demo secara otomatis:
 ```bash
-npx tsx src/lib/init-db.js
+npm run db:init
 ```
-Jika sukses, terminal akan menampilkan pesan `Database initialization completed successfully!`.
+Skrip ini menggunakan `tsx` untuk menjalankan file JavaScript modern secara langsung. Jika berhasil, Anda akan melihat pesan `Database initialization completed successfully!`.
 
 ### 4. Mulai Server Development
 Lakukan start pada local environment server:
@@ -71,5 +71,27 @@ Fitur testing menggunakan **Jest** dan **React Testing Library**.
 Setelah langkah nomor 3 (Inisialisasi Database) telah ter-eksekusi, sistem secara otomatis mendaftarkan akun ini:
 - **Email/Username**: `admin@example.com` atau `admin`
 - **Password**: `password123`
+
+---
+
+## 📸 Screenshot Aplikasi
+### 1. Tampilan Mobile
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/9bb7bb7c-0539-436b-93d4-13e0094675b5" />
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/39134a1a-9947-4054-a9d8-c123be82cfb7" />
+
+### 2. Tampilan Laptop/Desktop
+<img width="1907" height="966" alt="pc1" src="https://github.com/user-attachments/assets/f23afa72-10d5-4da0-9624-c0805993fa40" />
+
+### 3. Validasi Password Salah
+<img width="985" height="531" alt="image" src="https://github.com/user-attachments/assets/c7f0d78a-223a-43a9-9398-88bdb10391ae" />
+
+### 4. Halaman Dashboard
+<img width="1024" height="476" alt="image" src="https://github.com/user-attachments/assets/b03d8ddd-c1f9-4c17-abb5-26f887202595" />
+
+### 5. Rate Limit
+<img width="1913" height="984" alt="image" src="https://github.com/user-attachments/assets/ad08e2a4-bb97-418a-86d4-84317ac4e525" />
+
+---
+
 
 
